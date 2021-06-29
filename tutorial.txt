@@ -1,0 +1,7 @@
+man grep
+
+grep -v english country.txt
+
+grep -v english country.txt | cut -d, -f1 > noenglish.txt
+
+grep rome country.txt | cut -d, -f1
